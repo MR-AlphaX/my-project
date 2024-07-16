@@ -1,7 +1,10 @@
+# Created by Ghost0_0x1
 import subprocess
 import optparse
 import re
 import time
+#run me in linux
+
 def get_argumet():
     parser=optparse.OptionParser()
     parser.add_option('-i','--interface',dest='network_interface',help='set here network interface')
